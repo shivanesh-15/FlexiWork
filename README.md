@@ -42,7 +42,7 @@ FlexiWork simplifies the process of finding work opportunities and services by o
 - **CSS Modules** (for styling)
 
 ### Backend
-- Placeholder for backend services like Node.js/Django/Firebase (if applicable).
+- Placeholder for backend services like Node.js and MongoDB.
 
 ### Other Tools
 - **Framer Motion** for animations
