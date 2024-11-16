@@ -113,8 +113,6 @@ FlexiWork/
 ### Login Page
 ![Login Page Screenshot](path-to-your-login-page-screenshot.png)
 
-> Add screenshots of other key pages and features for a comprehensive showcase.
-
 ---
 
 ## Future Enhancements
