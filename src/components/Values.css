@@ -1,0 +1,36 @@
+.values-section {
+    padding: 40px;
+    background-color: #121212;
+    color: hsla(0, 0%, 100%, 0.956);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .values-section h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    padding: 10px;
+    color: hsla(0, 0%, 100%, 0.956);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .values-cards {
+    display: flex;
+    gap: 20px;
+    color: hsla(0, 0%, 100%, 0.956);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+  }
+  
+  .value-card {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+  }
+  
+  .value-card h3 {
+    color: #9857d9;
+    font-size: 18px;
+  }
+  

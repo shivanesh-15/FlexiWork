@@ -1,0 +1,95 @@
+.testimonials-section {
+    color: #fcfcfc;
+    padding: 40px;
+    background-color: #121212;
+    text-align: center;
+  }
+  
+  .testimonials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .testimonials-header h2 {
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .testimonials-header p {
+    color: #b0b0b0;
+    font-size: 14px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .view-all-button {
+    background-color: #1c1c1c;
+  
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .testimonials-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .testimonial-card {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+  }
+  
+  .stars {
+    display: flex;
+  }
+  
+  .star {
+    color: gold;
+    font-size: 18px;
+    margin-right: 4px;
+  }
+  
+  .client-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .client-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .client-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .client-location {
+    font-size: 14px;
+    color: #b0b0b0;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .pagination-buttons button {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  

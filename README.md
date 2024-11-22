@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FlexiWork 🌟
 
 **FlexiWork** is an online platform connecting job providers and job seekers, while also enabling users to buy, sell, and rent goods and services. Designed with scalability, responsiveness, and ease of use in mind, it bridges the gap between employers and employees in a flexible and efficient way.
@@ -135,3 +136,13 @@ This project is licensed under the [MIT License](LICENSE).
 
 - UI inspiration and screenshots provided by the FlexiWork team.
 - Special thanks to open-source libraries like React.js, Vite, and Framer Motion.
+=======
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>>>>>>> 61d34fa (about page)

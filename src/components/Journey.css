@@ -1,0 +1,53 @@
+.journey-section {
+  font-weight: bold;
+    display: flex;
+    padding: 40px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+  }
+.h1{
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  color: #9857d9;
+}
+  .journey-content {
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .journey-content h2 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+  .journey-stats {
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .stat-item h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #9857d9;
+    text-align: center;
+  }
+  
+  .journey-image img {
+    margin-top: 20px;
+    text-align: center;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
