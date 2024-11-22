@@ -1,0 +1,173 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #121212;
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-logo {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.footer-subscribe {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-subscribe input {
+  padding: 10px;
+  background-color: #444;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.footer-subscribe button {
+  background-color: #821fe6;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-right {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 15px;
+  margin-right: 30px;
+}
+
+.footer-section h4 {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 12px;
+  color: #bdbdbd;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.footer-section p:hover {
+  color: #ffffff;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 1px;
+}
+
+
+
+
+
+
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #121212;
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-logo {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.footer-subscribe {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-subscribe input {
+  padding: 10px;
+  background-color: #444;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.footer-subscribe button {
+  background-color: #5a00b7;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-right {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.footer-section h4 {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 12px;
+  color: #bdbdbd;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.footer-section p:hover {
+  color: #ffffff;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+
+
+
+
+

@@ -1,0 +1,319 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; 
+  }
+  
+  .job-seeker-page {
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+  }
+  
+  .job-seeker-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+  }
+  
+  .job-seeker-logo {
+    font-size: 36px;
+    color: #9857d9;
+    margin-bottom: 5px;
+  }
+  
+  .job-seeker-tagline {
+    font-size: 16px;
+    color: #bdbdbd;
+  }
+  
+  .job-seeker-hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #000000;
+  }
+  
+  .section-heading {
+    font-size: 28px;
+    color: #9857d9;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-size: 14px;
+    color: #bdbdbd;
+    margin-bottom: 20px;
+  }
+  
+  .explore-jobs-btn {
+    padding: 12px 24px;
+    background-color: #9857d9;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-jobs-btn:hover {
+    background-color: #7a46a3;
+  }
+  
+  .job-seeker-categories {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #000000;
+  }
+  
+  .categories-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .categories-list li {
+    background-color: #444;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .job-seeker-additional-info {
+    padding: 40px 20px;
+    background-color: #ffffff; 
+    text-align: center;
+  }
+  
+  .job-seeker-additional-info .section-heading {
+    font-size: 28px;
+    color: #2a9d8f; 
+    margin-bottom: 20px;
+  }
+  
+  .job-seeker-additional-info form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .job-seeker-additional-info label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #555555; 
+  }
+  
+  .job-seeker-additional-info input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+    color: #333333; 
+    outline: none;
+  }
+  
+  .job-seeker-additional-info button {
+    display: inline-block;
+    background-color: #2a9d8f; 
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .job-seeker-additional-info button:hover {
+    background-color: #238f7a;
+  }
+  
+  @media (max-width: 768px) {
+    .job-seeker-additional-info {
+      padding: 20px;
+    }
+  
+    .job-seeker-additional-info form {
+      padding: 0 10px;
+    }
+  }
+  .categories-list li:hover {
+    background-color: #9857d9;
+  }
+  
+  .job-seeker-subscribe {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #000000;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .subscribe-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .subscribe-form button {
+    background-color: #9857d9;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #7a46a3;
+  }
+  
+  .job-seeker-form {
+    background-color: #646464;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-seeker-form h2 {
+    color: #9857d9;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .job-seeker-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .job-seeker-form input,
+  .job-seeker-form textarea,
+  .job-seeker-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #444;
+    color: #ffffff;
+  }
+  
+  .job-seeker-form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .job-seeker-form input[type="file"] {
+    padding: 5px;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  .job-seeker-form button {
+    display: inline-block;
+    background-color: #9857d9;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .job-seeker-form button:hover {
+    background-color: #7a46a3;
+  }
+  .job-provider-form {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  .form-heading {
+    color: #9857d9;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #525151;
+    color: #ffffff;
+  }
+  
+  form button {
+    display: inline-block;
+    background-color: #9857d9;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  form button:hover {
+    background-color: #7a46a3;
+  }
+  
+  @media (max-width: 768px) {
+    .categories-list {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .subscribe-form {
+      flex-direction: column;
+    }
+  
+    .job-provider-form,
+    .job-seeker-form {
+      padding: 20px;
+    }
+  }
+  
