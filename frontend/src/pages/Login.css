@@ -1,0 +1,79 @@
+/* Login Container */
+.login-container {
+  text-align: center;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 40px 40px;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.login-title {
+  font-size: 34px;
+  color: #6b44ff;
+  margin-bottom: 30px;
+}
+
+.login-subtitle {
+  font-size: 14px;
+  color: #bdbdbd;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  padding: 10px;
+  border-radius: 40px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+  width: 100%;
+}
+
+.forgot-password {
+  color: #e7e3fb;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+.login-action,
+.sign-up-action {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.login-action {
+  background-color: #6b44ff;
+}
+
+.sign-up-action {
+  background-color: #333;
+}
+
+/* Social Login */
+.social-login {
+  margin-top: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials svg {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}

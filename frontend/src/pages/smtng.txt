@@ -1,0 +1,104 @@
+import React from "react";
+import "./JobProviders.css";
+
+const JobProviders = () => {
+  return (
+    <div className="job-providers-container">
+      <h1 className="job-providers-title">Job Providers</h1>
+      <p className="job-providers-description">
+        Post job opportunities and hire the best talent. Fill out the forms below to get started.
+      </p>
+
+      <div className="job-providers-forms">
+        {/* Job Posting Form */}
+        <div className="job-posting-form">
+          <h2 className="form-title">Post a Job</h2>
+          <form>
+            <label htmlFor="job-title">Job Title</label>
+            <input type="text" id="job-title" className="job-providers-input" placeholder="Enter the job title" />
+
+            <label htmlFor="job-description">Job Description</label>
+            <textarea id="job-description" className="job-providers-input" placeholder="Describe the job"></textarea>
+
+            <label htmlFor="job-requirements">Requirements</label>
+            <textarea id="job-requirements" className="job-providers-input" placeholder="Enter job requirements"></textarea>
+
+            <label htmlFor="job-location">Location</label>
+            <input type="text" id="job-location" className="job-providers-input" placeholder="Enter job location" />
+
+            <label htmlFor="salary">Salary Range</label>
+            <input type="text" id="salary" className="job-providers-input" placeholder="Enter salary range" />
+
+            <button type="submit" className="job-providers-button">Post Job</button>
+          </form>
+        </div>
+
+        {/* Job Application Form */}
+        <div className="job-application-form">
+          <h2 className="form-title">Apply for a Job</h2>
+          <form>
+            <label htmlFor="applicant-name">Full Name</label>
+            <input type="text" id="applicant-name" className="job-providers-input" placeholder="Enter your name" />
+
+            <label htmlFor="dob">Date of Birth</label>
+            <input type="date" id="dob" className="job-providers-input" />
+
+            <label htmlFor="qualification">Qualification</label>
+            <input type="text" id="qualification" className="job-providers-input" placeholder="Enter your qualifications" />
+
+            <label htmlFor="experience">Experience</label>
+            <input type="text" id="experience" className="job-providers-input" placeholder="Enter your work experience" />
+
+            <label htmlFor="resume">Upload Resume</label>
+            <input type="file" id="resume" className="job-providers-input" />
+
+            <label htmlFor="languages">Languages Known</label>
+            <input type="text" id="languages" className="job-providers-input" placeholder="Enter languages you know" />
+
+            <label htmlFor="commuting-distance">Preferred Commuting Distance</label>
+            <input type="text" id="commuting-distance" className="job-providers-input" placeholder="Enter commuting distance" />
+
+            <button type="submit" className="job-providers-button">Submit Application</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default JobProviders;
+
+
+
+
+
+
+
+{/* Job Application Form */}
+        <div className="job-application-form">
+          <h2 className="form-title">Apply for a Job</h2>
+          <form>
+            <label htmlFor="applicant-name">Full Name</label>
+            <input type="text" id="applicant-name" className="job-providers-input" placeholder="Enter your name" />
+
+            <label htmlFor="dob">Date of Birth</label>
+            <input type="date" id="dob" className="job-providers-input" />
+
+            <label htmlFor="qualification">Qualification</label>
+            <input type="text" id="qualification" className="job-providers-input" placeholder="Enter your qualifications" />
+
+            <label htmlFor="experience">Experience</label>
+            <input type="text" id="experience" className="job-providers-input" placeholder="Enter your work experience" />
+
+            <label htmlFor="resume">Upload Resume</label>
+            <input type="file" id="resume" className="job-providers-input" />
+
+            <label htmlFor="languages">Languages Known</label>
+            <input type="text" id="languages" className="job-providers-input" placeholder="Enter languages you know" />
+
+            <label htmlFor="commuting-distance">Preferred Commuting Distance</label>
+            <input type="text" id="commuting-distance" className="job-providers-input" placeholder="Enter commuting distance" />
+
+            <button type="submit" className="job-providers-button">Submit Application</button>
+          </form>
+        </div>
