@@ -13,7 +13,7 @@
   width: 500px; /* Increased the width */
   padding: 20px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background:#6b44ff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   color: #fff;
 }
