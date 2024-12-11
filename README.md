@@ -110,7 +110,7 @@ FlexiWork/
 ```
 ---
 
-##Contributing
+## Contributing
 
 We welcome contributions to FlexiWork! If you'd like to contribute, follow these steps:
 
