@@ -1,7 +1,7 @@
 
 # FlexiWork 🌟
 
-## Project Des
+## Project Description
 **FlexiWork** is an online platform connecting job providers and job seekers, while also enabling users to buy, sell, and rent goods and services. Designed with scalability, responsiveness, and ease of use in mind, it bridges the gap between employers and employees in a flexible and efficient way.
 
 ---
@@ -81,7 +81,7 @@ Follow these steps to run the project locally:
    ```bash
    npm run dev
    ```
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+5. Open [use the appropriate port for example :](http://localhost:300) in your browser to view the app.
 
 ---
 
@@ -113,6 +113,6 @@ FlexiWork/
 
 ## Contact
 
-For any questions or feedback, feel free to open an issue or contact us at [your contact information].
+For any questions or feedback, feel free to open an issue or contact us at shivaneshg2006@gmail.com.
 
 ---
