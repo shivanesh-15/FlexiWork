@@ -14,10 +14,9 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
-- [Screenshots](#screenshots)
-- [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
-- [License](#license)
+- [Contact us](#contact)
+  
 
 ---
 
@@ -111,6 +110,17 @@ FlexiWork/
 ```
 ---
 
+##Contributing
+
+We welcome contributions to FlexiWork! If you'd like to contribute, follow these steps:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Make your changes and commit (git commit -m "Add feature").
+- Push your changes (git push origin feature-branch).
+- Open a pull request to the main branch.
+
+  ---
 ## Contact
 
 For any questions or feedback, feel free to open an issue or contact us at shivaneshg2006@gmail.com.
