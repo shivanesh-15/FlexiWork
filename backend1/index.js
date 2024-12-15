@@ -1,39 +1,24 @@
 const port = 5000;
 const express = require('express');
 const mongoose = require("mongoose");
-const multer = require("multer");
-const path = require("path");
 const cors = require("cors");
 const app = express();
 
+// CORS Configuration
 app.use(cors({
   origin: 'http://localhost:5173', // Allow connections from this frontend port
   methods: ['GET', 'POST'],       // Allow these methods
 }));
 
 app.use(express.json());
-app.use(cors());
-// MongoDB Connection (Simplified and Fixed)
 
-
-mongoose.connect("mongodb+srv://shivanesh_15:Shivanesh@cluster0.4h4pu.mongodb.net/FlexiWork-DataBase")
-
-app.get("/", (req, res) => {
-    res.send("Hello World! How are you?");
-  });
-
-app.listen(port,(error)=>{
-  if(!error){
-    console.log("server running on port"+port)
-  }
-  else{
-    console.log("Error:"+error)
-  }
-  });
-
-
-
-
+// MongoDB Connection
+mongoose.connect("mongodb+srv://shivanesh_15:Shivanesh@cluster0.4h4pu.mongodb.net/FlexiWork-DataBase", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((error) => console.error("Failed to connect to MongoDB:", error));
 
 // Define Mongoose Schema and Model
 const JobDetails = mongoose.model("job_details", {
@@ -62,9 +47,13 @@ app.post('/addproduct', async (req, res) => {
 // API to Remove a Product
 app.post('/removeproduct', async (req, res) => {
   try {
-    await JobDetails.findOneAndDelete({ id: req.body.id });
-    console.log("Removed");
-    res.json({ success: true, message: "Product removed successfully!" });
+    const deletedProduct = await JobDetails.findOneAndDelete({ id: req.body.id });
+    if (deletedProduct) {
+      console.log("Removed:", deletedProduct);
+      res.json({ success: true, message: "Product removed successfully!" });
+    } else {
+      res.status(404).json({ success: false, message: "Product not found." });
+    }
   } catch (error) {
     console.error("Error removing product:", error.message);
     res.status(500).json({ success: false, message: error.message });
@@ -76,7 +65,7 @@ app.get('/allproducts', async (req, res) => {
   try {
     const products = await JobDetails.find({});
     console.log("All Products Fetched");
-    res.send(products);
+    res.json(products);
   } catch (error) {
     console.error("Error fetching products:", error.message);
     res.status(500).json({ success: false, message: error.message });

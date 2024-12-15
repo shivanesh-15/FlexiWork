@@ -18,7 +18,7 @@ const JobProviders = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:4000/addproduct', {
+      const response = await fetch('http://localhost:5000/addproduct', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
