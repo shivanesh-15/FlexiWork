@@ -1,0 +1,88 @@
+/* Outer container for the form */
+.job-providers-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Inner container (form box) */
+.job-providers-box {
+  width: 500px; /* Increased the width */
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+/* Form title */
+.job-providers-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels for form fields */
+form label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #f0f0f0;
+}
+
+/* Input and textarea fields */
+form input,
+form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Textarea styling */
+form textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+/* Submit button */
+.job-providers-button {
+  padding: 8px; /* Reduced the size of the button */
+  width: 120px; /* Adjusted button width */
+  align-self: center; /* Centers the button in the form */
+  background-color: #fff;
+  color: #2575fc;
+  font-size: 0.9rem; /* Reduced the font size */
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.job-providers-button:hover {
+  background-color: #2575fc;
+  color: #fff;
+}

@@ -1,0 +1,134 @@
+/* Footer Styles */
+.footer {
+  background-color: #181818;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-logo h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #8b5cf6;
+}
+
+.footer-logo p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter input {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  border: 1px solid #555;
+  outline: none;
+}
+
+.newsletter button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  background-color: #8b5cf6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #6d28d9;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #8b5cf6;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+/* .social-icons a {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons :hover {
+  color: #8b5cf6;
+}
+
+
+/* .social-icons a {
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  gap: 5px;
+} */ */
+
+  .social-icons {
+    font-size: 30px;
+    display: flex;
+    gap: 15px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  .social-icons :hover {
+    color: #8b5cf6;
+  }

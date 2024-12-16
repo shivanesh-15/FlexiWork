@@ -1,0 +1,91 @@
+/* Global Styling */
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+/* Main Content */
+.signup-main {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.signup-form-container {
+  max-width: 500px;
+  padding: 2rem;
+  background: #1c1c1c;
+  border-radius: 10px;
+}
+
+.signup-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #6b44ff;
+}
+
+.signup-description {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.input-field {
+  width: 80%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 50px;
+  background: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for input fields when focused (clicked) */
+.input-field:focus {
+  background: #333; /* Keep background consistent */
+  border: 1px solid #6b44ff; /* Optional: Change border color on focus */
+  outline: none; /* Remove the default focus outline */
+}
+
+.signup-submit-btn {
+  width: 100%;
+  padding: 13px;
+  background: #6b44ff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+
+.signup-login-btn {
+  width: 100%;
+  padding: 13px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+
+.signup-or {
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.signup-social-icons svg {
+  margin: 0 0.5rem;
+  font-size: 20px;
+  cursor: pointer;
+}

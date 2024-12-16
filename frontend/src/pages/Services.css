@@ -1,0 +1,277 @@
+.hero-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #0d0d0d;
+  }
+  
+  .hero-section h2 {
+    color: #6b4eff;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-description {
+    font-size: 16px;
+    color: #bdbdbd;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .service-card {
+    width: 150px;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+  }
+  
+  .service-icon {
+    font-size: 24px;
+    color: #7c51e1;
+    margin-bottom: 1px;
+    margin-top: 30px;
+  }
+  
+  .service-card p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 1px;
+    right: 15px;
+    font-size: 18px;
+    color: #7c51e1;
+  }
+
+  .services-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #0d0d0d;
+    color: #ffffff;
+  }
+  
+  .services-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #6b4eff;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+    color: #888888;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+    padding: 20px 180px;
+  }
+  
+  .services-card, .services-info-card {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .services-card .icon {
+    font-size: 32px;
+    color: #6b4eff;
+    margin-bottom: 10px;
+  }
+  
+  .services-card p {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .services-info-card {
+    grid-column: span 2;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    margin-left: 480px;
+    margin-right: 480px;
+  }
+  
+  .services-info-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .services-info-card p {
+    font-size: 14px;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .learn-more:hover {
+    background-color: #6b4eff;
+  }
+
+  .featured-jobs {
+    padding: 20px;
+    text-align: center;
+    background-color: #0d0d0d;
+  }
+  
+  .featured-jobs h2 {
+    color: #6b4eff;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #bdbdbd;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+  }
+  
+  .view-all-jobs {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .job-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .job-card {
+    width: 250px;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .job-card h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .job-description {
+    font-size: 14px;
+    color: #bdbdbd;
+    margin: 10px 0;
+    line-height: 1.4;
+  }
+  
+  .categories {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .category-icon {
+    background-color: #444;
+    padding: 5px;
+    border-radius: 4px;
+    color: #cf8ef2;
+    font-size: 14px;
+  }
+  
+  .price-section {
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 16px;
+    color: #cf8ef2;
+  }
+  
+  .view-job {
+    background-color: #5a00b7;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: auto;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination p {
+    font-size: 14px;
+    color: #bdbdbd;
+  }
+  
+  .pagination-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .pagination-btn {
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
